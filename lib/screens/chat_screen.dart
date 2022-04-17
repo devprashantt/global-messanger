@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:my_project14/screens/login_screen.dart';
 import '../constants.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
@@ -56,7 +57,7 @@ class _ChatScreenState extends State<ChatScreen> {
           IconButton(
               icon: Icon(Icons.close),
               onPressed: () {
-                messagesStream();
+                Navigator.pop(context, LoginScreen.id);
                 // _auth.signOut();
                 // Navigator.pop(context);
               }),
@@ -159,7 +160,8 @@ class MessageBubble extends StatelessWidget {
     return Padding(
       padding: EdgeInsets.symmetric(horizontal: 10.0, vertical: 15.0),
       child: Column(
-        crossAxisAlignment: isMe ? CrossAxisAlignment.end : CrossAxisAlignment.start,
+        crossAxisAlignment:
+            isMe ? CrossAxisAlignment.end : CrossAxisAlignment.start,
         children: [
           Text(
             sender,
@@ -169,15 +171,17 @@ class MessageBubble extends StatelessWidget {
             ),
           ),
           Material(
-            borderRadius: isMe ? BorderRadius.only(
-              topLeft: Radius.circular(30.0),
-              topRight: Radius.circular(30.0),
-              bottomRight: Radius.circular(30),
-            ) : BorderRadius.only(
-              bottomLeft: Radius.circular(30.0),
-              topRight: Radius.circular(30.0),
-              bottomRight: Radius.circular(30),
-            ),
+            borderRadius: isMe
+                ? BorderRadius.only(
+                    topLeft: Radius.circular(30.0),
+                    topRight: Radius.circular(30.0),
+                    bottomRight: Radius.circular(30),
+                  )
+                : BorderRadius.only(
+                    bottomLeft: Radius.circular(30.0),
+                    topRight: Radius.circular(30.0),
+                    bottomRight: Radius.circular(30),
+                  ),
             elevation: 5.0,
             color: isMe ? Colors.lightBlueAccent : Colors.white,
             child: Padding(
