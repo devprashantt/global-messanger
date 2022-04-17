@@ -21,4 +21,4 @@ We’re going to build a modern messaging app where users can sign up and log in
 
 ## Screenshots
 
-<img src="Screenshots/Screenshots (1).png" width="200" height="400"> <img src="Screenshots/Screenshots (2).png" width="200" height="400"> <img src="Screenshots/Screenshots (3).png" width="200" height="400"> <img src="Screenshots/Screenshots (4).png" width="200" height="400"> 
+<img src="Screenshots/Screenshots (1).png" width="200" height="400"> <img src="Screenshots/Screenshots (2).png" width="200" height="400"> <img src="Screenshots/Screenshots (3).png" width="200" height="400"> <img src="Screenshots/Screenshots (4).png" width="200" height="400"> <img src="Screenshots/Screenshots (5).png" width="200" height="400"> <img src="Screenshots/Screenshots (6).png" width="200" height="400"> <img src="Screenshots/Screenshots (7).png" width="200" height="400"> 
