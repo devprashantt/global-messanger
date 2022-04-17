@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "419604848339",
+    "project_id": "flash-card-2cb1d",
+    "storage_bucket": "flash-card-2cb1d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:419604848339:android:182c47a7079c471b917e26",
+        "android_client_info": {
+          "package_name": "me.lovenitro.flash_card"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "419604848339-fsofap992u4sv9oshb45s7b7t3ojs8fl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGimZO0FEoLe2zDTi374kNx9_r8RqbOSU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "419604848339-fsofap992u4sv9oshb45s7b7t3ojs8fl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
